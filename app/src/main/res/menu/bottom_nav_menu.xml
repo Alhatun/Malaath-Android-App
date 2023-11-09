@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:title="profile" />
+    <item
+        android:id="@+id/status"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="status" />
+    <item
+        android:id="@+id/awareness"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="awareness" />
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="contact" />
+
+
+</menu>

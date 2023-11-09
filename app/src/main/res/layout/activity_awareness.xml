@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6BBDAEE7"
+    tools:context=".awareness">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="224dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="180dp"
+
+            android:layout_marginEnd="104dp"
+            android:backgroundTint="#36AA84B1"
+            android:text=" Threatening "
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="224dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="292dp"
+
+            android:layout_marginEnd="104dp"
+            android:backgroundTint="#36AA84B1"
+            android:text="Sexual assault "
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="224dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="104dp"
+            android:backgroundTint="#36AA84B1"
+            android:text=" Anywhere "
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="224dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="500dp"
+
+            android:layout_marginEnd="104dp"
+            android:backgroundTint="#36AA84B1"
+            android:text=" Violence"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="84dp"
+            android:background="#36AA84B1"
+            android:backgroundTint="#AA84B1"
+            android:text="Click the boxes to get some advices"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/bottom_nav_menu"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="668dp"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
